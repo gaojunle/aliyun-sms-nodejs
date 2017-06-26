@@ -76,7 +76,7 @@ var AliyunSmsUtil = {
     //发送注册短信[业务级]
     sendRegistSms: function () {
         var data = {
-            PhoneNumbers: '13716732040',	//要发送到短信的手机
+            PhoneNumbers: '1371673xxxx',	//要发送到短信的手机
             SignName: '短信签名',			//短信签名，阿里云短信平台申请
             TemplateCode: 'SMS_***',		//短信模板Code，阿里云短信平台申请
             TemplateParam: "{\"name\":\"用户A\",\"text\":\"3421\",\"time\":\"30\"}", //短信模板中参数指定，以你的为准替换之
